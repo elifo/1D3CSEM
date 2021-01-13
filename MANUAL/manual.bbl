@@ -1,0 +1,52 @@
+\begin{thebibliography}{}
+
+\bibitem[Bonilla et~al., 2005]{Bonilla2005}
+Bonilla, L.~F., Archuleta, R.~J., and Lavall{\'e}e (2005).
+\newblock Hysteretic and dilatant behavior of cohesionless soils and their
+  effects on nonlinear site response: Field data observations and modeling.
+\newblock {\em Bulletin of the Seismological Society of America},
+  95(6):2373--2395.
+
+\bibitem[Delavaud, 2007]{Delavaud2007}
+Delavaud, E. (2007).
+\newblock {\em Simulation num{\'e}rique de la propagation d'ondes en milieu
+  g{\'e}ologique complexe: application {\`a} l'{\'e}valuation de la r{\'e}ponse
+  sismique du bassin de Caracas (Venezuela)}.
+\newblock PhD thesis, Institut de Physique du Globe de Paris.
+
+\bibitem[Hardin and Drnevich, 1972]{HardinDrnevich1972}
+Hardin, B.~O. and Drnevich, V.~P. (1972).
+\newblock Shear modulus and damping in soils: measurement and parameter
+  effects.
+\newblock {\em Journal of Soil Mechanics and Foundations Div}, 98(sm6).
+
+\bibitem[Iai et~al., 1990]{Iaietal1990}
+Iai, S., Matsunaga, Y., and Kameoka, T. (1990).
+\newblock Parameter identification for a cyclic mobility model.
+\newblock {\em Report of the Port and harbour Research Institute}, 29(4).
+
+\bibitem[Iai et~al., 1995]{Iai1995}
+Iai, S., Morita, T., Kameoka, T., Matsunaga, Y., and Abiko, K. (1995).
+\newblock Response of a dense sand deposit during 1993 kushiro-oki earthquake.
+\newblock {\em Soils and Foundations}, 35(1):115--131.
+
+\bibitem[Iwan, 1967]{Iwan1967}
+Iwan, W.~D. (1967).
+\newblock On a class of models for the yielding behavior of continuous and
+  composite systems.
+\newblock {\em Journal of Applied Mechanics}, 34(3):612--617.
+
+\bibitem[Liu and Archuleta, 2006]{LiuArchuleta2006}
+Liu, P. and Archuleta, R.~J. (2006).
+\newblock Efficient modeling of q for 3d numerical simulation of wave
+  propagation.
+\newblock {\em Bulletin of the Seismological Society of America},
+  96(4A):1352--1358.
+
+\bibitem[Oral, 2016]{Oral2016}
+Oral, E. (2016).
+\newblock {\em Mod{\'e}lisation multi-dimensionnelle de la propagation des
+  ondes sismiques dans les milieux lin{\'e}aires et non-lin{\'e}aires.}
+\newblock PhD thesis, Universit{\'e} Paris-Est.
+
+\end{thebibliography}

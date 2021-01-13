@@ -1,0 +1,55 @@
+ # 
+ # Mesh file for KUSHIRO PORT borehole model: New mesh 
+ #     1D Wave Propagation  
+ # 
+ # Number of elements, Number of nodes, Number of domains 
+ 	 18 	 19 	 8  
+ # Nodes number, coordinates and type (D:Dirichlet,N:Neumann,I:Internal) 
+	 1 	 0.000000 	 N 
+	 2 	 2.000000 	 I 
+	 3 	 5.000000 	 I 
+	 4 	 9.000000 	 I 
+	 5 	 13.000000 	 I 
+	 6 	 18.000000 	 I 
+	 7 	 23.000000 	 I 
+	 8 	 27.000000 	 I 
+	 9 	 32.000000 	 I 
+	 10 	 36.000000 	 I 
+	 11 	 40.000000 	 I 
+	 12 	 44.000000 	 I 
+	 13 	 48.000000 	 I 
+	 14 	 52.000000 	 I 
+	 15 	 57.000000 	 I 
+	 16 	 62.000000 	 I 
+	 17 	 67.000000 	 I 
+	 18 	 72.000000 	 I 
+	 19 	 77.000000 	 B 
+ # Elements number, corresponding domain and nodes number 
+	 1 	 1 	 1 	 2 
+	 2 	 2 	 2 	 3 
+	 3 	 2 	 3 	 4 
+	 4 	 3 	 4 	 5 
+	 5 	 3 	 5 	 6 
+	 6 	 3 	 6 	 7 
+	 7 	 4 	 7 	 8 
+	 8 	 4 	 8 	 9 
+	 9 	 5 	 9 	 10 
+	 10 	 6 	 10 	 11 
+	 11 	 6 	 11 	 12 
+	 12 	 7 	 12 	 13 
+	 13 	 7 	 13 	 14 
+	 14 	 8 	 14 	 15 
+	 15 	 8 	 15 	 16 
+	 16 	 8 	 16 	 17 
+	 17 	 8 	 17 	 18 
+	 18 	 8 	 18 	 19 
+ # Domains number, corresponding material number, Number of elements, dxmin, dxmax 
+	 1 	 1 	 1 	 2.000000 	 2.000000 
+	 2 	 2 	 2 	 3.000000 	 4.000000 
+	 3 	 3 	 3 	 4.000000 	 5.000000 
+	 4 	 4 	 2 	 4.000000 	 5.000000 
+	 5 	 5 	 1 	 4.000000 	 4.000000 
+	 6 	 6 	 2 	 4.000000 	 4.000000 
+	 7 	 7 	 2 	 4.000000 	 4.000000 
+	 8 	 8 	 5 	 5.000000 	 5.000000 
+ # Parameters for the Dirichlet conditions Left/Right (vmax,t0,tmax) 

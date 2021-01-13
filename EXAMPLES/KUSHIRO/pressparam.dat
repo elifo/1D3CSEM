@@ -1,0 +1,47 @@
+# IAI MODEL PPTS (KUSHIRO)
+5        # Total domain nb
+# Domain 1 [Layer 1 and 2]
+40.0	 # phi_f
+28.0	 # phi_p
+0.50	 # p1
+0.65	 # p2
+0.01     # S1
+7.00	 # w1   
+0.0	 # Cohesion [Pa]
+0.5	 # Coefficient of Earth at rest (K0)
+# Domain 2 [Layer 3]
+48.0	 # phi_f
+28.0	 # phi_p
+0.50	 # p1
+0.40	 # p2
+0.01     # S1
+3.50	 # w1
+0.0	 # Cohesion [Pa]
+0.5	 # Coefficient of Earth at rest (K0)
+# Domain 3 [Layer 4]
+37.0	 # phi_f
+0.00	 # phi_p
+0.00	 # p1
+0.00	 # p2
+0.00     # S1
+0.00	 # w1
+0.0	 # Cohesion [Pa]
+0.5	 # Coefficient of Earth at rest (K0)
+# Domain 4 [Layers 5-6-8]
+44.0	 # phi_f
+0.00	 # phi_p	
+0.00	 # p1
+0.00	 # p2
+0.00     # S1
+0.00	 # w1
+0.0	 # Cohesion [Pa]
+0.5	 # Coefficient of Earth at rest (K0)
+# Domain 5 [Layer 7]
+45.0	 # phi_f
+0.00	 # phi_p
+0.00	 # p1
+0.00	 # p2
+0.00     # S1
+0.00	 # w1
+0.0	 # Cohesion [Pa]
+0.5	 # Coefficient of Earth at rest (K0)

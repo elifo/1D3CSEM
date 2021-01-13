@@ -1,0 +1,20 @@
+\chapter{Compilation}
+
+The compilation of 1D-3C SEM code is tested for gfortran and ifort compilers. A faster computation is provided by optimization options with the compiler flags. In order to compile the code, the user should execute ‘make’ command first  in ‘SRC/Modules’ folder, where the ‘Makefile’ is available for modules. The same execution should be applied in ‘SRC’ folder, where another ‘Makefile’ is available for main fortran files. This procedure is written in compile.sh file. It is also possible to use directly this bash file for compilation.  \\
+
+For both compilers (gfortran and ifort), necessary flags are provided in Makefile.  For users who prefer gfortran compiler, necessary flags are as follows:\\
+
+OPT  = -O2 -finline-functions -funswitch-loops -fpredictive-commoning \
+                  -fpredictive-commoning  -fgcse-after-reload -ftree-slp-vectorize  \
+                  -ftree-loop-distribute-patterns -fvect-cost-model -fipa-cp-clone  \
+                  -fno-math-errno -funsafe-math-optimizations  \
+                  -fno-rounding-math -fno-signaling-nans -fcx-limited-range  \
+                  -g3 -fbacktrace  -fdefault-double-8 -fdefault-real-8 -fdefault-integer-8
+
+This option is equivalent to the Ofast and avoids possible computational errors. For the use of ifort compiler, following command is suggested:\\
+
+OPT= -O3 -ip -ipo -unroll
+
+Advanced users who intend to change the content of source files are suggested to specify dependencies in Makefile.depend files in ‘Modules’ directory.\\
+
+Once the compilation is completed, the code creates an executable in upper directory which is named ‘SEM1D3C’. Then, the user could perform simulations in her working directory with this executable.\\

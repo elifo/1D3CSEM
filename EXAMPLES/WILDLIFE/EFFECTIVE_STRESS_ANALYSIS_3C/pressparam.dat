@@ -1,0 +1,20 @@
+# PRESSURE-DEPENDENT MODEL PPTS (WRLA)
+2	 # Total domain nb
+# Domain 1 [Layer 1 and 2]
+28.0	 # phi_f
+0.	 # phi_p
+0.0	 # p1
+0.0	 # p2
+0.0      # S1
+4.0	 # w1
+0.0	 # Cohesion [Pa]
+1.0	 # Coefficient of Earth at rest (K0)
+# Domain 2 [Layer 3 and 4]
+32.0	 # phi_f
+24.0	 # phi_p
+0.40	 # p1
+0.90	 # p2
+0.0100   # S1
+4.0 	 # w1
+0.0	 # Cohesion [Pa]
+1.0	 # Coefficient of Earth at rest (K0)

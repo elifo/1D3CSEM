@@ -1,0 +1,33 @@
+# Makefile for SRC/Modules/
+#
+
+F90  =  gfortran
+
+# Ofast eliminated + double precision forced
+OPT  =  -O2 -finline-functions -funswitch-loops -fpredictive-commoning \
+                   -fpredictive-commoning -fgcse-after-reload -ftree-slp-vectorize \
+                   -ftree-loop-distribute-patterns -fvect-cost-model -fipa-cp-clone  \
+                   -fno-math-errno -funsafe-math-optimizations  \
+                   -fno-rounding-math -fno-signaling-nans -fcx-limited-range \
+                   -g3 -fbacktrace -fdefault-double-8 -fdefault-real-8 -fdefault-integer-8
+
+MODULEDIR = .
+
+F90MOD = -I
+
+F90FLAGS = $(F90MOD) $(MODULEDIR)
+
+OBJ := $(patsubst %.f90,%.o,$(wildcard *.f90) )
+
+all : $(OBJ)
+
+clean :
+	rm -f *.o *.mod *~
+
+%.o: %.f90
+	$(F90) $(F90FLAGS) $(OPT) -c $<
+
+Domain.o : Element.o  subdomains.o  
+
+Sources.o : pi.o
+#

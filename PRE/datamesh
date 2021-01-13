@@ -1,0 +1,16 @@
+ # 
+ # Mesh file for Example mesh file 
+ #     1D Wave Propagation  
+ # 
+ # Number of elements, Number of nodes, Number of domains 
+ 	 2 	 3 	 1  
+ # Nodes number, coordinates and type (D:Dirichlet,N:Neumann,I:Internal,B:Borehole) 
+	 1 	 0.000000 	 N 
+	 2 	 10.000000 	 I 
+	 3 	 20.000000 	 B 
+ # Elements number, corresponding domain and nodes number 
+	 1 	 1 	 1 	 2 
+	 2 	 1 	 2 	 3 
+ # Domains number, corresponding material number, Number of elements, dxmin, dxmax 
+	 1 	 1 	 2 	 10.000000 	 10.000000 
+ # Parameters for the Dirichlet conditions Left/Right (vmax,t0,tmax) 

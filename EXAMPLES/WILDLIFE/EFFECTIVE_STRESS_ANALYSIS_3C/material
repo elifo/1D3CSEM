@@ -1,0 +1,17 @@
+# Material types
+# Number of material types
+4
+# Type ,P and SVelocity, Density, PML ,  Delta T , Number of GLL, Viscosity Q, Reference frequency, Nonlinear Soil Number   
+1      249  	  99       1600     F      0.00002         5       25.   10.	     1.		   1
+2      281  	  99       1928     F      0.00002         5       28.   10.	     1.		   1
+3     1019  	 116       2000     F      0.00002         5      102.   12.	     1.		   1
+4     1591  	 116       2000     F      0.00002         5      160.   12.	     1.		   1
+# For PML specify 
+# np-power,A-power, Left-increase
+    2        10          F        
+# For PRESSURE-DEPENDENT condition, specify
+# Domain number, Liquefiability, Overburden soil type
+1		    F			1
+2		    F			1
+3		    T			2
+4		    F			2

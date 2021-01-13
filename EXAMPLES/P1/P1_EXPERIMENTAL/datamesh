@@ -1,0 +1,19 @@
+ #
+ # Data file for P1 model of PRENOLIN project
+ #     1D Wave Propagation 
+ #
+ #Number of elements, Number of nodes, Number of domains
+       	4		             5		           1
+ #Nodes number, coordinates and type (D:Dirichlet,N:Neumann,I:Internal,B:Borehole)
+           1   0.0000000     N
+	   2   5.0000000     I
+           3  10.0000000     I
+           4  15.0000000     I
+	   5  20.0000000     B
+#Elements number, corresponding domain and nodes number
+           1           1           1           2
+           2           1           2           3
+	   3           1           3           4
+	   4           1           4           5
+#Domains number, corresponding material number, Number of elements, dxmin, dxmax
+           1           1           4          5       5

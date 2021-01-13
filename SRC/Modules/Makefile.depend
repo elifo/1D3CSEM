@@ -1,0 +1,5 @@
+Domain.o 	: Element.o  subdomains.o  
+Sources.o	: pi.o
+inciwave.o	: astdio.o 
+viscopara.o     : viscoelem.o  Domain.o 
+nonlinear.o     : Domain.o nonelement.o 

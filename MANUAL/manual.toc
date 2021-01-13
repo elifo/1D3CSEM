@@ -1,0 +1,15 @@
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {chapter}{\numberline {2}Compilation}{5}
+\contentsline {chapter}{\numberline {3}Examples}{6}
+\contentsline {section}{\numberline {3.1}Introduction}{6}
+\contentsline {section}{\numberline {3.2}Elasticity model}{6}
+\contentsline {section}{\numberline {3.3}Viscoelasticity model}{10}
+\contentsline {section}{\numberline {3.4}Nonlinearity model}{11}
+\contentsline {subsection}{\numberline {3.4.1}Pressure-independent nonlinearity}{11}
+\contentsline {subsection}{\numberline {3.4.2}Pressure-dependent nonlinearity}{12}
+\contentsline {paragraph}{Total stress analysis}{12}
+\contentsline {paragraph}{Effective stress analysis}{13}
+\contentsline {paragraph}{Effective stress analysis - II}{14}
+\contentsline {chapter}{\numberline {4}Prior and posterior analyses}{15}
+\contentsline {section}{\numberline {4.1}Pre-treatment}{15}
+\contentsline {section}{\numberline {4.2}Post-treatment}{16}
