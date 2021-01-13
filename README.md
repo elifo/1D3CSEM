@@ -13,6 +13,7 @@ Geophysical Journal International, [DOI](https://doi.org/10.1093/gji/ggx375), [P
 
 ## Content
 The code is the extended version of the 1D SEM code of Dr. Elise Delavaud (Delavaud, 2007). I have implemented the following features:
+* Three component analysis
 * Incident velocity insertion by file
 * Borehole boundary condition 
 * New soil constitutive models that are based on:
