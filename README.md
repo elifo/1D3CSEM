@@ -1,7 +1,7 @@
 # 1D3CSEM
 One-dimensional (1D) three-component (3C) spectral element modeling (SEM) of seismic wave propagation in nonlinear media with pore-pressure effects. 
 
-For details on how to use the code, please refer to [Manual](https://github.com/elifo/1D3CSEM/tree/main/MANUAL).
+For details on how to use the code, please refer to [Manual](https://github.com/elifo/1D3CSEM/tree/main/MANUAL/manual.pdf).
 
 
 ## Related publications: 
