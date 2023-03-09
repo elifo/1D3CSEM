@@ -250,7 +250,13 @@ subroutine nonline_curve_hyper(Tdomain,Enonli,Gmax,isoil,R,H,CNinv)
 
   do i = 1,nspr             
     gamma(i) = 10.0**(x0 + dx*(i- 1))
-    G(i)     = (1.0/(1.0+ abs(gamma(i)/Enonli%gammaref(isoil))))
+    
+    if (Enonli%gammaref(isoil) < 0.0) then
+      G(i) = 1.0
+    else 
+      G(i)     = (1.0/(1.0+ abs(gamma(i)/Enonli%gammaref(isoil))))
+    endif 
+    
     R(i)     = Gmax* G(i)* gamma(i)
     write(33,*)   gamma(i), R(i), Enonli%gammaref(isoil)                       
   enddo
